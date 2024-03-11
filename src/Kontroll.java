@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Kontroll{
 
-    //checkar så user input är rätt typ
+    //checkar så user input är rätt
 
     public static int kontroll(String check){
 
@@ -10,8 +10,8 @@ public class Kontroll{
 
         while(true){
             int j = 0;
-            for(int i = 0; i<check.length();i++){
-
+            for(int i = 0; i<check.length();i++){                   //jättefin nested for loop
+                                                                    //while true för att få rätt input efter en fel input
                 if (!Character.isDigit(check.charAt(i))){
                     System.out.println(check.charAt(i)+" :inte ett nummer");
                     break;
@@ -22,7 +22,7 @@ public class Kontroll{
                     }
                 }
             }
-            System.out.println("Skriv endast nummer ");
+            System.out.println("Skriv endast nummer ");             //rätt input
             System.out.print(": ");
             check = scan.nextLine();
         }
