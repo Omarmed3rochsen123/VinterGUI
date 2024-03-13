@@ -14,6 +14,8 @@ public class Accounts {
 
     public Accounts() {
 
+
+
         Arrays.fill(userNames, "tomt");
         Arrays.fill(userPasswords, 0);
 
@@ -48,7 +50,7 @@ public class Accounts {
 
                 }
                 case 2 -> LogIn.logIn();                                    //logga in
-                case 3 -> System.out.println("Hejdå");
+                case 3 -> System.out.println("Hejdå");                      //exits
                 default -> System.out.println("idiot, skriv 1 eller 2");      //pepega
 
             }
@@ -56,6 +58,9 @@ public class Accounts {
         }while (choice != 3);
 
 
+        if (LogIn.logedIn){
+            Library.libraryUI();
+        }
     }
 
 }

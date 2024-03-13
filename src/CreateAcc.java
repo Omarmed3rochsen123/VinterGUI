@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class CreateAcc {
 
@@ -6,7 +6,7 @@ public class CreateAcc {
 
     static void createAcc(String userName, int password) {                //skapar konto och fyller en plats i arrayen
 
-        boolean finns = false;                                            //vet ej vad den här ska göra
+        boolean finns = false;                                            //glömde vad jag skulle använda den här till
 
 
         for (int i = 0; Accounts.userNames.length > i; i++) {                            //den vill vara en enhanced for loop men dem är skumma

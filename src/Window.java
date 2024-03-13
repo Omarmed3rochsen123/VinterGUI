@@ -1,5 +1,5 @@
 
-public class Window {
+class Window {
 
 
     //skapar GUI
