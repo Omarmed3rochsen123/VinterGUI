@@ -6,17 +6,17 @@ public class CreateAcc {
 
     static void createAcc(String userName, int password) {                //skapar konto och fyller en plats i arrayen
 
-        boolean finns = false;                                            //glömde vad jag skulle använda den här till
+        boolean finns = false;
 
 
-        for (int i = 0; Accounts.userNames.length > i; i++) {                            //den vill vara en enhanced for loop men dem är skumma
+        for (int i = 0; Accounts.userNames.length > i; i++) {
             if (Accounts.userNames[i].equalsIgnoreCase(userName)) {                      //kollar om konto med uppgifter redan finns
                 System.out.println("Finns redan en användare med detta användarnamn");
                 finns = true;
                 break;
             }
         }
-        if (!finns){                                                                         //checkar om det finns
+        if (!finns){
 
             for (int i = 0; Accounts.userNames.length > i; i++) {
                 if (Accounts.userNames[i].equalsIgnoreCase("tomt")){
