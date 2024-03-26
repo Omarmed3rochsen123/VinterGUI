@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b43623-e838-4d0d-8704-2a36fd533db0" name="Changes" comment="ingen uppdatering, jobbade på diagram">
+    <list default="true" id="f8b43623-e838-4d0d-8704-2a36fd533db0" name="Changes" comment="ingen uppdatering, jobbade på diagram igen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreateAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateAcc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shelves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shelves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701675892669</updated>
       <workItem from="1701675893825" duration="37415000" />
-      <workItem from="1709715372337" duration="15029000" />
+      <workItem from="1709715372337" duration="20799000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1701675912829</created>
@@ -109,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710839480742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ingen uppdatering, jobbade på diagram igen">
+      <created>1710929027960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710929027960</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,7 @@
     <MESSAGE value="main tom, CreateAcc" />
     <MESSAGE value="Library, shelves och books har mer" />
     <MESSAGE value="ingen uppdatering, jobbade på diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingen uppdatering, jobbade på diagram" />
+    <MESSAGE value="ingen uppdatering, jobbade på diagram igen" />
+    <option name="LAST_COMMIT_MESSAGE" value="ingen uppdatering, jobbade på diagram igen" />
   </component>
 </project>

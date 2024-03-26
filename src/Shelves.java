@@ -10,14 +10,16 @@ class Shelves{
 
     @Override
     public String toString() {
+
         return "Shelves{" +
                 "shelf=" + shelf +
                 ", shelfName='" + shelfName + '\'' +
                 '}';
+
     }
 
-    void main(String args[]){
-        toString();
+    static void contains(){
+
     }
 }
 

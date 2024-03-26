@@ -15,7 +15,6 @@ public class Accounts {
     public Accounts() {
 
 
-
         Arrays.fill(userNames, "tomt");
         Arrays.fill(userPasswords, 0);
 
@@ -26,7 +25,8 @@ public class Accounts {
 
         int password;
 
-        do{                                                                 //do while för val
+        do{
+                                                                            //do while för val
             System.out.println("Vad vill du göra?");
             System.out.println("1: Skapa konto");
             System.out.println("2: logga in");
@@ -38,7 +38,8 @@ public class Accounts {
             switch (choice) {
 
 
-                case 1 -> {                                              //skapar ett konto
+                case 1 -> {
+                                                                        //skapar ett konto
                     System.out.println("Skriv in användarnamn");        //borde flytta allt det här in i create klassen
                     System.out.print(": ");
                     String userName = scan.nextLine();
@@ -59,7 +60,9 @@ public class Accounts {
 
 
         if (LogIn.logedIn){
+
             Library.libraryUI();
+
         }
     }
 
