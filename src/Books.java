@@ -19,6 +19,7 @@ class Books extends Shelves{
 
 
     Books Frankenstein = new Books(1,"ok",1,"ok","ok","Frankenstein");
+    Books Hej = new Books(1,"ok",1,"ok","ok","Hej");
 
     public static String getTitle() {
         return title;
@@ -27,4 +28,6 @@ class Books extends Shelves{
     public static void setTitle(String title) {
         Books.title = title;
     }
+
+
 }

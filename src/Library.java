@@ -40,6 +40,8 @@ class Library{
 
     static void bookSearch(){
 
+        System.out.println(Books.getTitle());
+
         System.out.println("Vad heter boken?");
         input = scan.nextLine();
 
